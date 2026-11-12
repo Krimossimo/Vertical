@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en" data-accent="iris">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vertical</title>
+  <link rel="icon" href="/static/icon.svg">
+  <link rel="preload" href="/static/ui-fonts/Inter.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="/static/ui-fonts/Sora.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="/static/style.css">
+  <script>
+    try { var a = localStorage.getItem("vx.accent"); if (a) document.documentElement.dataset.accent = a;
+      var l = localStorage.getItem("vx.lang"); if (l) document.documentElement.lang = l; } catch (_) { }
+  </script>
+</head>
+<body>
+  <div id="splash">
+    <div class="sp">
+      <img class="sp-mark" src="/static/icon.svg" alt="">
+      <div class="sp-word">Vertical</div>
+      <div class="sp-tag" id="spTag"></div>
+      <div class="sp-bar"><i></i></div>
+      <div class="sp-msg" id="spMsg"></div>
+    </div>
+  </div>
+  <div id="app">
+    <header class="top">
+      <div class="logo" id="goHome"><img class="mk" src="/static/icon.svg" alt=""><div class="word">Vertical</div></div>
+      <div class="crumb" id="crumb"></div>
+      <div class="spacer"></div>
+      <div class="pills" id="envPills"></div>
+      <div class="hbtns">
+        <button class="iconbtn" id="btnKeys"></button>
+        <button class="iconbtn" id="btnSettings"></button>
+        <button class="iconbtn heart" id="btnAbout"></button>
+      </div>
+    </header>
+    <main id="main"></main>
+  </div>
+  <div id="toasts"></div>
+  <script src="/static/app.js"></script>
+</body>
+</html>

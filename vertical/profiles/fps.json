@@ -1,0 +1,155 @@
+{
+ "id": "fps",
+ "name": "FPS / Battle royale",
+ "kind": "genre",
+ "games": [
+  "valorant",
+  "counter-strike",
+  "cs2",
+  "csgo",
+  "apex",
+  "fortnite",
+  "call of duty",
+  "warzone",
+  "overwatch",
+  "rainbow six",
+  "pubg",
+  "battlefield",
+  "the finals",
+  "marvel rivals",
+  "escape from tarkov",
+  "halo",
+  "destiny"
+ ],
+ "hashtags": [
+  "#fps",
+  "#clutch",
+  "#gaming",
+  "#shorts"
+ ],
+ "genre_prompt": "a screenshot of a first-person shooter game with a gun in view",
+ "keywords": {
+  "ace": [
+   1.0,
+   "skill"
+  ],
+  "clutch": [
+   1.0,
+   "skill"
+  ],
+  "headshot": [
+   0.9,
+   "skill"
+  ],
+  "one tap": [
+   1.0,
+   "skill"
+  ],
+  "onetap": [
+   1.0,
+   "skill"
+  ],
+  "top 1": [
+   1.0,
+   "victoire"
+  ],
+  "top un": [
+   1.0,
+   "victoire"
+  ],
+  "victory royale": [
+   1.0,
+   "victoire"
+  ],
+  "triple": [
+   0.7,
+   "skill"
+  ],
+  "quadra": [
+   0.9,
+   "skill"
+  ],
+  "il campe": [
+   0.6,
+   "echec"
+  ],
+  "cheater": [
+   0.8,
+   "inattendu"
+  ],
+  "cheat": [
+   0.6,
+   "inattendu"
+  ],
+  "wallhack": [
+   0.7,
+   "inattendu"
+  ],
+  "knock": [
+   0.5,
+   "combat"
+  ],
+  "il est low": [
+   0.6,
+   "combat"
+  ],
+  "one hp": [
+   0.9,
+   "tension"
+  ],
+  "1 hp": [
+   0.9,
+   "tension"
+  ],
+  "kill": [
+   0.4,
+   "combat"
+  ],
+  "spray": [
+   0.5,
+   "skill"
+  ],
+  "noscope": [
+   1.0,
+   "skill"
+  ]
+ },
+ "clip_prompts": [
+  {
+   "text": "a first-person view shooting at an enemy with muzzle flash",
+   "label": "Fusillade",
+   "category": "combat",
+   "weight": 0.8,
+   "label_en": "Gunfight"
+  },
+  {
+   "text": "a kill feed showing multiple eliminations in a shooter game",
+   "label": "Multi-kill",
+   "category": "skill",
+   "weight": 1.0,
+   "label_en": "Multi-kill"
+  },
+  {
+   "text": "a victory screen in a battle royale game",
+   "label": "Victoire",
+   "category": "victoire",
+   "weight": 1.2,
+   "label_en": "Victory"
+  },
+  {
+   "text": "a defeat or eliminated screen in a shooter game",
+   "label": "Éliminé",
+   "category": "echec",
+   "weight": 1.0,
+   "label_en": "Eliminated"
+  },
+  {
+   "text": "a sniper scope view aiming at an enemy",
+   "label": "Sniper",
+   "category": "skill",
+   "weight": 0.7,
+   "label_en": "Sniper"
+  }
+ ],
+ "name_en": "FPS / Battle royale"
+}

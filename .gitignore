@@ -1,0 +1,9 @@
+.venv/
+tools/
+models/
+data/
+release/
+setup.log
+vertical_src.tgz
+__pycache__/
+*.pyc

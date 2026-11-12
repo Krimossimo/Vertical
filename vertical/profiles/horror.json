@@ -1,0 +1,93 @@
+{
+ "id": "horror",
+ "name": "Horreur",
+ "kind": "genre",
+ "games": [
+  "resident evil",
+  "silent hill",
+  "outlast",
+  "phasmophobia",
+  "lethal company",
+  "dead by daylight",
+  "alan wake",
+  "amnesia",
+  "fnaf",
+  "five nights",
+  "the outlast trials",
+  "repo",
+  "r.e.p.o"
+ ],
+ "hashtags": [
+  "#horrorgaming",
+  "#jumpscare",
+  "#gaming",
+  "#shorts"
+ ],
+ "genre_prompt": "a screenshot of a dark horror video game",
+ "keywords": {
+  "jumpscare": [
+   1.0,
+   "reaction"
+  ],
+  "j'ai peur": [
+   1.0,
+   "reaction"
+  ],
+  "peur": [
+   0.6,
+   "reaction"
+  ],
+  "flippant": [
+   0.7,
+   "reaction"
+  ],
+  "au secours": [
+   1.0,
+   "reaction"
+  ],
+  "cours": [
+   0.6,
+   "tension"
+  ],
+  "il arrive": [
+   0.8,
+   "tension"
+  ],
+  "derrière": [
+   0.6,
+   "tension"
+  ],
+  "run": [
+   0.6,
+   "tension"
+  ],
+  "scary": [
+   0.8,
+   "reaction"
+  ]
+ },
+ "clip_prompts": [
+  {
+   "text": "a terrifying monster face close to the camera in a horror game",
+   "label": "Jumpscare",
+   "category": "reaction",
+   "weight": 1.3,
+   "label_en": "Jumpscare"
+  },
+  {
+   "text": "a dark corridor lit by a flashlight in a horror game",
+   "label": "Exploration angoissante",
+   "category": "tension",
+   "weight": 0.5,
+   "label_en": "Tense exploration"
+  },
+  {
+   "text": "a creature chasing the player in a horror game",
+   "label": "Poursuite",
+   "category": "tension",
+   "weight": 1.0,
+   "label_en": "Chase"
+  }
+ ],
+ "name_en": "Horror"
+}

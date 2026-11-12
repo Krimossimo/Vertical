@@ -1,0 +1,83 @@
+{
+ "id": "sandbox",
+ "name": "Sandbox / Survie / Aventure",
+ "kind": "genre",
+ "games": [
+  "minecraft",
+  "terraria",
+  "valheim",
+  "rust",
+  "ark",
+  "palworld",
+  "zelda",
+  "gta",
+  "red dead",
+  "subnautica",
+  "sea of thieves",
+  "peak",
+  "enshrouded",
+  "baldur",
+  "cyberpunk"
+ ],
+ "hashtags": [
+  "#gaming",
+  "#survival",
+  "#twitch",
+  "#shorts"
+ ],
+ "genre_prompt": "a screenshot of an open world sandbox survival game",
+ "keywords": {
+  "creeper": [
+   0.9,
+   "inattendu"
+  ],
+  "diamant": [
+   0.8,
+   "victoire"
+  ],
+  "diamond": [
+   0.8,
+   "victoire"
+  ],
+  "lave": [
+   0.7,
+   "echec"
+  ],
+  "tombé": [
+   0.6,
+   "echec"
+  ],
+  "trahison": [
+   0.9,
+   "drole"
+  ],
+  "wanted": [
+   0.6,
+   "tension"
+  ]
+ },
+ "clip_prompts": [
+  {
+   "text": "a player falling from a great height in a video game",
+   "label": "Chute",
+   "category": "echec",
+   "weight": 0.9,
+   "label_en": "Fall"
+  },
+  {
+   "text": "an explosion destroying blocks in a sandbox game",
+   "label": "Explosion",
+   "category": "inattendu",
+   "weight": 0.9,
+   "label_en": "Explosion"
+  },
+  {
+   "text": "a giant creature appearing in an open world game",
+   "label": "Créature géante",
+   "category": "combat",
+   "weight": 0.8,
+   "label_en": "Giant creature"
+  }
+ ],
+ "name_en": "Sandbox / Survival / Adventure"
+}

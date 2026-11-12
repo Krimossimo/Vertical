@@ -1,0 +1,222 @@
+{
+ "id": "souls_action",
+ "name": "Action / Souls-like",
+ "kind": "genre",
+ "games": [
+  "elden ring",
+  "sekiro",
+  "dark souls",
+  "bloodborne",
+  "lies of p",
+  "black myth",
+  "wukong",
+  "nioh",
+  "wo long",
+  "stellar blade",
+  "khazan",
+  "lords of the fallen",
+  "ghost of",
+  "devil may cry",
+  "god of war",
+  "nine sols",
+  "hollow knight",
+  "silksong",
+  "monster hunter"
+ ],
+ "hashtags": [
+  "#soulslike",
+  "#boss",
+  "#actionrpg",
+  "#gaming",
+  "#shorts"
+ ],
+ "genre_prompt": "a screenshot of a third-person action game with sword combat against a dangerous enemy",
+ "keywords": {
+  "boss": [
+   1.0,
+   "combat"
+  ],
+  "phase 2": [
+   1.0,
+   "combat"
+  ],
+  "deuxième phase": [
+   1.0,
+   "combat"
+  ],
+  "seconde phase": [
+   1.0,
+   "combat"
+  ],
+  "parade": [
+   1.0,
+   "skill"
+  ],
+  "parry": [
+   1.0,
+   "skill"
+  ],
+  "contre": [
+   0.6,
+   "skill"
+  ],
+  "esquive": [
+   0.8,
+   "skill"
+  ],
+  "dodge": [
+   0.8,
+   "skill"
+  ],
+  "combo": [
+   0.8,
+   "skill"
+  ],
+  "exécution": [
+   0.8,
+   "skill"
+  ],
+  "one shot": [
+   1.0,
+   "echec"
+  ],
+  "oneshot": [
+   1.0,
+   "echec"
+  ],
+  "il m'a tué": [
+   1.0,
+   "echec"
+  ],
+  "je suis mort": [
+   1.0,
+   "echec"
+  ],
+  "j'suis mort": [
+   1.0,
+   "echec"
+  ],
+  "mort": [
+   0.7,
+   "echec"
+  ],
+  "il est mort": [
+   1.0,
+   "victoire"
+  ],
+  "il est down": [
+   1.0,
+   "victoire"
+  ],
+  "vaincu": [
+   1.0,
+   "victoire"
+  ],
+  "je l'ai eu": [
+   1.0,
+   "victoire"
+  ],
+  "estus": [
+   0.4,
+   "tension"
+  ],
+  "potion": [
+   0.3,
+   "tension"
+  ],
+  "heal": [
+   0.4,
+   "tension"
+  ],
+  "soin": [
+   0.4,
+   "tension"
+  ],
+  "plus de vie": [
+   0.9,
+   "tension"
+  ],
+  "grab": [
+   0.7,
+   "echec"
+  ],
+  "chope": [
+   0.6,
+   "echec"
+  ],
+  "délai": [
+   0.6,
+   "echec"
+  ],
+  "delay": [
+   0.6,
+   "echec"
+  ]
+ },
+ "clip_prompts": [
+  {
+   "text": "a giant boss monster attacking the player character in a dark action game",
+   "label": "Combat de boss",
+   "category": "combat",
+   "weight": 1.0,
+   "label_en": "Boss fight"
+  },
+  {
+   "text": "a death screen with large red text in a video game",
+   "label": "Mort du personnage",
+   "category": "echec",
+   "weight": 1.2,
+   "label_en": "Character death"
+  },
+  {
+   "text": "a victory screen with the defeated enemy name in large golden text",
+   "label": "Boss vaincu",
+   "category": "victoire",
+   "weight": 1.2,
+   "label_en": "Boss defeated"
+  },
+  {
+   "text": "bright sparks from clashing swords during a parry in a video game",
+   "label": "Parade",
+   "category": "skill",
+   "weight": 1.0,
+   "label_en": "Parry"
+  },
+  {
+   "text": "a fast sword combo with slash trail effects in an action game",
+   "label": "Combo",
+   "category": "skill",
+   "weight": 0.9,
+   "label_en": "Combo"
+  },
+  {
+   "text": "a game character dodging an attack with a motion blur effect",
+   "label": "Esquive",
+   "category": "skill",
+   "weight": 0.8,
+   "label_en": "Dodge"
+  },
+  {
+   "text": "a game character with an almost empty red health bar",
+   "label": "Santé critique",
+   "category": "tension",
+   "weight": 0.7,
+   "label_en": "Critical health"
+  },
+  {
+   "text": "a cinematic finishing move execution on an enemy in a video game",
+   "label": "Exécution",
+   "category": "skill",
+   "weight": 0.9,
+   "label_en": "Execution"
+  },
+  {
+   "text": "many enemies surrounding the player character in an action game",
+   "label": "Encerclé",
+   "category": "combat",
+   "weight": 0.7,
+   "label_en": "Surrounded"
+  }
+ ],
+ "name_en": "Action / Souls-like"
+}

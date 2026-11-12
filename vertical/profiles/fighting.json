@@ -1,0 +1,101 @@
+{
+ "id": "fighting",
+ "name": "Jeux de combat",
+ "kind": "genre",
+ "games": [
+  "street fighter",
+  "tekken",
+  "mortal kombat",
+  "brawlhalla",
+  "smash",
+  "guilty gear",
+  "dragon ball",
+  "fatal fury",
+  "multiversus",
+  "2xko"
+ ],
+ "hashtags": [
+  "#fgc",
+  "#fightinggame",
+  "#combo",
+  "#shorts"
+ ],
+ "genre_prompt": "a screenshot of a 2D fighting game with two characters and health bars at the top",
+ "keywords": {
+  "combo": [
+   1.0,
+   "skill"
+  ],
+  "perfect": [
+   1.0,
+   "skill"
+  ],
+  "ko": [
+   0.8,
+   "victoire"
+  ],
+  "k.o": [
+   0.8,
+   "victoire"
+  ],
+  "comeback": [
+   1.0,
+   "inattendu"
+  ],
+  "spike": [
+   0.7,
+   "skill"
+  ],
+  "juggle": [
+   0.7,
+   "skill"
+  ],
+  "read": [
+   0.7,
+   "skill"
+  ],
+  "parry": [
+   1.0,
+   "skill"
+  ],
+  "punish": [
+   0.8,
+   "skill"
+  ],
+  "rage quit": [
+   0.9,
+   "echec"
+  ]
+ },
+ "clip_prompts": [
+  {
+   "text": "a long combo with hit counter in a fighting game",
+   "label": "Combo",
+   "category": "skill",
+   "weight": 1.0,
+   "label_en": "Combo"
+  },
+  {
+   "text": "a K.O. screen in a fighting game",
+   "label": "K.O.",
+   "category": "victoire",
+   "weight": 1.2,
+   "label_en": "K.O."
+  },
+  {
+   "text": "two fighters with very low health bars in a fighting game",
+   "label": "Fin serrée",
+   "category": "tension",
+   "weight": 0.9,
+   "label_en": "Close finish"
+  },
+  {
+   "text": "a super move cinematic with flashy effects in a fighting game",
+   "label": "Super attaque",
+   "category": "skill",
+   "weight": 0.9,
+   "label_en": "Super move"
+  }
+ ],
+ "name_en": "Fighting games"
+}

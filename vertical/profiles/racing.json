@@ -1,0 +1,79 @@
+{
+ "id": "racing",
+ "name": "Course",
+ "kind": "genre",
+ "games": [
+  "forza",
+  "gran turismo",
+  "mario kart",
+  "f1 2",
+  "f1 24",
+  "f1 25",
+  "need for speed",
+  "the crew",
+  "trackmania",
+  "rocket league",
+  "assetto"
+ ],
+ "hashtags": [
+  "#racing",
+  "#simracing",
+  "#gaming",
+  "#shorts"
+ ],
+ "genre_prompt": "a screenshot of a racing video game with a car on a track",
+ "keywords": {
+  "crash": [
+   0.9,
+   "echec"
+  ],
+  "dépassement": [
+   0.8,
+   "skill"
+  ],
+  "premier": [
+   0.6,
+   "victoire"
+  ],
+  "first": [
+   0.5,
+   "victoire"
+  ],
+  "carapace": [
+   0.6,
+   "inattendu"
+  ],
+  "but": [
+   0.7,
+   "skill"
+  ],
+  "goal": [
+   0.7,
+   "skill"
+  ]
+ },
+ "clip_prompts": [
+  {
+   "text": "a car crash with debris in a racing game",
+   "label": "Crash",
+   "category": "echec",
+   "weight": 1.0,
+   "label_en": "Crash"
+  },
+  {
+   "text": "a race finish line with first place result",
+   "label": "Victoire",
+   "category": "victoire",
+   "weight": 1.0,
+   "label_en": "Victory"
+  },
+  {
+   "text": "a close overtake between two cars in a racing game",
+   "label": "Dépassement",
+   "category": "skill",
+   "weight": 0.8,
+   "label_en": "Overtake"
+  }
+ ],
+ "name_en": "Racing"
+}

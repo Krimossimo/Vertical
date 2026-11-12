@@ -1,0 +1,104 @@
+{
+ "id": "moba",
+ "name": "MOBA / Stratégie",
+ "kind": "genre",
+ "games": [
+  "league of legends",
+  "lol",
+  "dota",
+  "smite",
+  "teamfight tactics",
+  "tft",
+  "heroes of the storm",
+  "age of empires",
+  "starcraft"
+ ],
+ "hashtags": [
+  "#leagueoflegends",
+  "#moba",
+  "#gaming",
+  "#shorts"
+ ],
+ "genre_prompt": "a screenshot of a top-down MOBA game with champions fighting near towers",
+ "keywords": {
+  "pentakill": [
+   1.0,
+   "skill"
+  ],
+  "penta": [
+   1.0,
+   "skill"
+  ],
+  "quadra": [
+   0.9,
+   "skill"
+  ],
+  "baron": [
+   0.7,
+   "combat"
+  ],
+  "nashor": [
+   0.7,
+   "combat"
+  ],
+  "drake": [
+   0.5,
+   "combat"
+  ],
+  "steal": [
+   0.9,
+   "skill"
+  ],
+  "vol": [
+   0.4,
+   "skill"
+  ],
+  "outplay": [
+   1.0,
+   "skill"
+  ],
+  "teamfight": [
+   0.8,
+   "combat"
+  ],
+  "ff": [
+   0.6,
+   "echec"
+  ],
+  "int": [
+   0.6,
+   "echec"
+  ]
+ },
+ "clip_prompts": [
+  {
+   "text": "a big team fight with many spell effects in a MOBA game",
+   "label": "Teamfight",
+   "category": "combat",
+   "weight": 1.0,
+   "label_en": "Teamfight"
+  },
+  {
+   "text": "a victory screen in a MOBA game",
+   "label": "Victoire",
+   "category": "victoire",
+   "weight": 1.2,
+   "label_en": "Victory"
+  },
+  {
+   "text": "a defeat screen in a MOBA game",
+   "label": "Défaite",
+   "category": "echec",
+   "weight": 1.0,
+   "label_en": "Defeat"
+  },
+  {
+   "text": "a pentakill announcement in a MOBA game",
+   "label": "Multi-kill",
+   "category": "skill",
+   "weight": 1.2,
+   "label_en": "Multi-kill"
+  }
+ ],
+ "name_en": "MOBA / Strategy"
+}

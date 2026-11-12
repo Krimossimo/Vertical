@@ -1,0 +1,73 @@
+{
+ "id": "sports",
+ "name": "Sport",
+ "kind": "genre",
+ "games": [
+  "ea sports fc",
+  "fc 25",
+  "fc 26",
+  "fifa",
+  "nba 2k",
+  "madden",
+  "efootball",
+  "pes"
+ ],
+ "hashtags": [
+  "#eafc",
+  "#football",
+  "#gaming",
+  "#shorts"
+ ],
+ "genre_prompt": "a screenshot of a football soccer video game on a stadium pitch",
+ "keywords": {
+  "but": [
+   1.0,
+   "victoire"
+  ],
+  "goal": [
+   1.0,
+   "victoire"
+  ],
+  "golazo": [
+   1.0,
+   "skill"
+  ],
+  "penalty": [
+   0.8,
+   "tension"
+  ],
+  "arbitre": [
+   0.7,
+   "echec"
+  ],
+  "ref": [
+   0.6,
+   "echec"
+  ],
+  "lucarne": [
+   1.0,
+   "skill"
+  ],
+  "poteau": [
+   0.8,
+   "echec"
+  ]
+ },
+ "clip_prompts": [
+  {
+   "text": "a player celebrating a goal in a football video game",
+   "label": "But",
+   "category": "victoire",
+   "weight": 1.2,
+   "label_en": "Goal"
+  },
+  {
+   "text": "a shot on goal with the goalkeeper diving in a football game",
+   "label": "Frappe",
+   "category": "skill",
+   "weight": 0.9,
+   "label_en": "Shot"
+  }
+ ],
+ "name_en": "Sports"
+}

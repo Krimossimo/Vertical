@@ -1,0 +1,125 @@
+{
+ "id": "generic",
+ "name": "Générique (tous jeux)",
+ "kind": "genre",
+ "games": [],
+ "hashtags": [
+  "#gaming",
+  "#gamer",
+  "#twitch",
+  "#shorts"
+ ],
+ "genre_prompt": "a screenshot of a video game",
+ "keywords": {
+  "boss": [
+   0.8,
+   "combat"
+  ],
+  "combat": [
+   0.4,
+   "combat"
+  ],
+  "mort": [
+   0.6,
+   "echec"
+  ],
+  "mourir": [
+   0.5,
+   "echec"
+  ],
+  "perdu": [
+   0.6,
+   "echec"
+  ],
+  "gagne": [
+   0.7,
+   "victoire"
+  ],
+  "gagné": [
+   0.7,
+   "victoire"
+  ],
+  "victoire": [
+   0.9,
+   "victoire"
+  ],
+  "win": [
+   0.6,
+   "victoire"
+  ],
+  "bug": [
+   0.7,
+   "drole"
+  ],
+  "glitch": [
+   0.8,
+   "drole"
+  ],
+  "rage": [
+   0.6,
+   "echec"
+  ],
+  "clutch": [
+   1.0,
+   "skill"
+  ],
+  "combo": [
+   0.7,
+   "skill"
+  ],
+  "premier essai": [
+   0.9,
+   "victoire"
+  ],
+  "first try": [
+   0.9,
+   "victoire"
+  ],
+  "enfin": [
+   0.6,
+   "victoire"
+  ],
+  "finally": [
+   0.6,
+   "victoire"
+  ]
+ },
+ "clip_prompts": [
+  {
+   "text": "a game over screen in a video game",
+   "label": "Écran de game over",
+   "category": "echec",
+   "weight": 1.0,
+   "label_en": "Game over screen"
+  },
+  {
+   "text": "a victory or level complete screen in a video game",
+   "label": "Écran de victoire",
+   "category": "victoire",
+   "weight": 1.0,
+   "label_en": "Victory screen"
+  },
+  {
+   "text": "a huge explosion in a video game",
+   "label": "Explosion",
+   "category": "combat",
+   "weight": 0.7,
+   "label_en": "Explosion"
+  },
+  {
+   "text": "an intense chaotic fight scene in a video game with many visual effects",
+   "label": "Combat intense",
+   "category": "combat",
+   "weight": 0.8,
+   "label_en": "Intense fight"
+  },
+  {
+   "text": "a glitched video game character in a weird broken pose",
+   "label": "Bug visuel",
+   "category": "drole",
+   "weight": 0.8,
+   "label_en": "Visual glitch"
+  }
+ ],
+ "name_en": "Generic (all games)"
+}

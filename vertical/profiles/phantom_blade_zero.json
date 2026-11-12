@@ -1,0 +1,98 @@
+{
+ "id": "phantom_blade_zero",
+ "name": "Phantom Blade Zero",
+ "kind": "game",
+ "extends": "souls_action",
+ "aliases": [
+  "phantom blade zero",
+  "phantom blade 0",
+  "phantomblade",
+  "pbz",
+  "phantom blade"
+ ],
+ "hashtags": [
+  "#PhantomBladeZero",
+  "#phantomblade",
+  "#kungfupunk",
+  "#wuxia",
+  "#soulslike",
+  "#shorts"
+ ],
+ "genre_prompt": "a screenshot of a dark wuxia kung fu action game with blades and martial arts combat",
+ "keywords": {
+  "kung fu": [
+   0.6,
+   "skill"
+  ],
+  "sabre": [
+   0.4,
+   "combat"
+  ],
+  "lame": [
+   0.3,
+   "combat"
+  ],
+  "blade": [
+   0.3,
+   "combat"
+  ],
+  "contre parfait": [
+   1.0,
+   "skill"
+  ],
+  "parade parfaite": [
+   1.0,
+   "skill"
+  ],
+  "perfect parry": [
+   1.0,
+   "skill"
+  ],
+  "finisher": [
+   0.8,
+   "skill"
+  ],
+  "soul": [
+   0.3,
+   "combat"
+  ],
+  "no hit": [
+   1.0,
+   "skill"
+  ],
+  "sans prendre de coup": [
+   1.0,
+   "skill"
+  ]
+ },
+ "clip_prompts": [
+  {
+   "text": "a martial artist swordsman in dark robes fighting a powerful boss with glowing blade effects",
+   "label": "Duel de boss",
+   "category": "combat",
+   "weight": 1.0,
+   "label_en": "Boss duel"
+  },
+  {
+   "text": "a kung fu warrior deflecting a strike with a bright flash of sparks",
+   "label": "Parade parfaite",
+   "category": "skill",
+   "weight": 1.1,
+   "label_en": "Perfect parry"
+  },
+  {
+   "text": "an acrobatic wuxia sword combo with ink and blood splash effects",
+   "label": "Combo kung-fu",
+   "category": "skill",
+   "weight": 1.0,
+   "label_en": "Kung-fu combo"
+  },
+  {
+   "text": "a swordsman performing a cinematic killing blow on an enemy",
+   "label": "Coup fatal",
+   "category": "skill",
+   "weight": 1.0,
+   "label_en": "Killing blow"
+  }
+ ]
+}
