@@ -15,6 +15,37 @@ def norm(s: str) -> str:
     return re.sub(r"[^a-z0-9']+", "", s)
 
 
+APOS = ("'", "\u2019", "\u2018", "`", "\u00b4")
+
+
+def merge_clitics(words: list[dict]) -> list[dict]:
+    """Recolle les mots que Whisper coupe autour des apostrophes (« c » + « 'est » -> « c'est »,
+    « j » + « 'étais », « l' » + « heure »). Les mots saisis à la main ne sont jamais fusionnés."""
+    out: list[dict] = []
+    for w in words:
+        w = dict(w)
+        txt = w.get("word", "")
+        core = txt.strip()
+        if out and core and not w.get("edited") and not out[-1].get("edited"):
+            prev = out[-1]
+            pcore = prev["word"].strip()
+            if core[0] in APOS and len(core) > 1 and pcore and pcore[-1] not in APOS:
+                glue = True
+            elif pcore and pcore[-1] in APOS and len(pcore) > 1 and core[0].isalnum() and w["start"] - prev["end"] < 0.6:
+                glue = True
+            else:
+                glue = False
+            if glue:
+                prev["word"] = prev["word"].rstrip() + core.replace("\u2019", "'").replace("\u2018", "'")
+                prev["end"] = max(prev["end"], w["end"])
+                prev["p"] = min(prev.get("p", 1.0), w.get("p", 1.0))
+                continue
+        if core and core[0] in APOS[1:3]:
+            w["word"] = txt.replace("\u2019", "'").replace("\u2018", "'")
+        out.append(w)
+    return out
+
+
 def flatten(tr: dict) -> list[dict]:
     out = []
     for s in tr.get("segments", []):
@@ -27,14 +58,14 @@ def flatten(tr: dict) -> list[dict]:
                 out += [{"start": s["start"] + i * d, "end": s["start"] + (i + 1) * d, "word": " " + t, "p": 0.5}
                         for i, t in enumerate(toks)]
     out.sort(key=lambda w: w["start"])
-    return out
+    return merge_clitics(out)
 
 
 def clean_words(words: list[dict]) -> list[dict]:
     """Supprime la ponctuation isolée et les boucles de répétition typiques de Whisper
     (« wesh wesh wesh… » collés au même instant)."""
     res: list[dict] = []
-    for w in words:
+    for w in merge_clitics(words):
         txt = w["word"]
         if not txt.strip():
             continue
